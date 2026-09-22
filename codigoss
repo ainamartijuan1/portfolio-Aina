@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aina Martí – Medical Student</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-block">
+      <div class="dna-helix"></div>
+      <h1 class="name">AINA MARTÍ</h1>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <span class="location">Medical student · València, ES</span>
+  </header>
+
+  <section class="hero">
+    <div class="hero-left">
+      <p class="hero-tag">MEDICAL STUDENT – VALÈNCIA</p>
+      <h2>Aina Martí.</h2>
+      <p class="hero-line">Driven by science.<br />Guided by people.</p>
+      <button id="enterPortfolio">Enter portfolio</button>
+    </div>
+    <div class="hero-right">
+      <!-- Aquí iría la figura anatómica (imagen) -->
+      <div class="body-figure">
+        <div class="flow"></div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="section">
+      <h2>Understanding. Then caring.</h2>
+      <div class="two-columns">
+        <p>
+          I want to understand what is happening in the body — and what it means for the person.
+        </p>
+        <p>
+          My interest in Medicine started with questions about how cells and the body work. Today,
+          physiology and pathology help me connect those questions to illness and treatment. I’m
+          learning to reason through a clinical problem, explain it clearly and make time to listen.
+        </p>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education & Training</h2>
+      <div class="card">
+        <h3>Degree in Medicine — Universitat de València</h3>
+        <p>Year 1–6. Focus on physiology, pathology, clinical reasoning and patient care.</p>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>How I learn & work with others</h2>
+      <h3>Curiosity. With perspective.</h3>
+      <details>
+        <summary>Understand the why</summary>
+        <p>I connect mechanisms and ideas, then explain the reasoning in my own words. If something does not make sense, I keep asking.</p>
+      </details>
+      <details>
+        <summary>Listen before responding</summary>
+        <p>I try to understand the person and the context before giving an answer or suggestion.</p>
+      </details>
+      <details>
+        <summary>Learn my limits</summary>
+        <p>I recognise when I need supervision or help and prioritise safety.</p>
+      </details>
+
+      <h3>Clinical interests — Questions I want to explore further</h3>
+      <div class="three-columns">
+        <div>
+          <h4>01 Surgery</h4>
+          <p>The precision, technical skill and possibility of treating disease through a direct intervention.</p>
+        </div>
+        <div>
+          <h4>02 Paediatrics</h4>
+          <p>How a child’s body and mind grow and develop, and how care can support that process.</p>
+        </div>
+        <div>
+          <h4>03 Oncology</h4>
+          <p>The mechanisms of cancer, the questions driving research and the impact of treatment on everyday life.</p>
+        </div>
+      </div>
+      <p class="note">
+        I am particularly interested in childhood cancer care and hope to explore both its medical and surgical perspectives, alongside opportunities to learn about research.
+      </p>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="card dark">
+        <h3>Let’s go deeper. Salut Nostra Talks. From skin to core.</h3>
+        <p>
+          Salut Nostra is a personal project to make learning about wellbeing accessible and thought-provoking.
+          Season one is in development: 8 perspectives, 8 conversations with health professionals.
+        </p>
+        <p><strong>What can we learn from those who care?</strong></p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>If you’d like to talk about clinical placements, projects or collaborations, you can reach me here.</p>
+      <form>
+        <label>Name<br /><input type="text" /></label><br />
+        <label>Email<br /><input type="email" /></label><br />
+        <label>Message<br /><textarea rows="4"></textarea></label><br />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
